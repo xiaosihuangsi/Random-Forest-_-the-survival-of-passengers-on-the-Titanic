@@ -47,3 +47,16 @@ In summary, this code predicts the survival of Titanic passengers using a Random
    ```bash
    git clone https://github.com/xiaosihuangsi/Random-Forest-the-survival-of-passengers-on-the-Titanic.git
    cd titanic-survival-prediction
+
+
+The task is to train a Random Forest Classifier that can predict the survival result.
+read titanic.csv dataset to pandas dataframe
+make X and y (species)
+split data to training and test sets (25 %)
+train RandomForestClassifier
+predict the test set results
+make confusion matrix, and visualize it using seaborn heatmap (annot=True)
+calculate accuracy score, recall and precision
+make two new passengers: "Rose 1st 17f" and "Jack 3rd 17m"
+predict with new data
+analyze the result and compare RandomForestClassifier with DecisionTreeClassifier (last week project)
